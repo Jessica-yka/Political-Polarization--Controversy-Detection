@@ -15,3 +15,7 @@ Tensorflow version == 1.14
 main_LSTM.ipynb is executed under Python 2.7
 
 main_GNN.ipynb and data_preprocessing.ipynb are executed under Python 3.7
+
+
+The link to access the dataset:
+https://drive.google.com/file/d/1238HjdFjLIH6B9y3AVjlnw_5Tjhy0spB/view?usp=sharing
