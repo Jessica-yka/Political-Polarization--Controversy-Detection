@@ -92,9 +92,9 @@ class LSTMDSSM(object):
         return session.run(output_feed, input_feed)
 
     def test_step(self, session, queries, docs, ground_truths):
-        input_feed = {self.queries: queries['texts'],
+        input_feed = {self.queries: queries['texts'], # queries are sampled text. For each tweet text, we have two queries. one query is similar to the text meaning, the other one is different.
                       self.queries_length: queries['texts_length'],
-                      self.docs: docs['texts'],
+                      self.docs: docs['texts'], # docs contain tweet text
                       self.docs_length: docs['texts_length']}
                       
         ## modified part
